@@ -100,7 +100,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 var heading = `<h1><u>Road Density</u></h1>`;
                 var reason = `<h2>Impacts accessibility to vital services and serves as conduits for floodwater</h2>`;
                 var source = `<h2>Source :  <a href='https://www.diva-gis.org/gdata' target='_blank' >DIVA-GIS</a> </h2>`;
-                var data_files = `<h2> Link to Data :  <a href='https://docs.google.com/spreadsheets/d/1HsG4Req8mhZgv6dkQPSRqkDsh-h-XkKZ3i46My-Vh5c/edit?usp=sharing' target='_blank' >Data File</a> </h2>`;
+                var data_files = `<h2> Link to Data :  <a href='https://docs.google.com/spreadsheets/d/12edn3EwuE4Lc2UDbj6HS-FJbNVrwvF4EtjkapKyVF48/edit?usp=sharing' target='_blank' >Data File</a> </h2>`;
                 var method = `
                 <h2>Methodology</h2>
                 <ul>
@@ -127,7 +127,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 var heading = `<h1><u>Population Density</u></h1>`;
                 var reason = `<h2>Indicates an increased potential for human casualties and displacement</h2>`;
                 var source = `<h2>Source :  <a href='https://sedac.ciesin.columbia.edu/data/collection/gpw-v4' target='_blank' >SEDAC</a> </h2>`;
-                var data_files = `<h2> Link to Data :  <a href='https://docs.google.com/spreadsheets/d/1HsG4Req8mhZgv6dkQPSRqkDsh-h-XkKZ3i46My-Vh5c/edit?usp=sharing' target='_blank' >Data File</a> </h2>`;
+                var data_files = `<h2> Link to Data :  <a href='https://docs.google.com/spreadsheets/d/12E_orHULgqs6IZLO4-olYh626NWWlKtTvuOs3pV5cFU/edit?usp=sharing' target='_blank' >Data File</a> </h2>`;
                 var method = `
                                 <h2>Methodology</h2>
                                 <ul>
@@ -149,7 +149,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 var heading = `<h1><u>Built-Up Index</u></h1>`;
                 var reason = `<h2>Indicate elevated flood risk due to impervious surfaces and inadequate drainage systems</h2>`;
                 var source = `<h2>Source :  <a href='https://sedac.ciesin.columbia.edu/data/set/ghsl-population-built-up-estimates-degree-urban-smod' target='_blank' >SEDAC</a> </h2>`;
-                var data_files = `<h2> Link to Data :  <a href='https://docs.google.com/spreadsheets/d/1HsG4Req8mhZgv6dkQPSRqkDsh-h-XkKZ3i46My-Vh5c/edit?usp=sharing' target='_blank' >Data File</a> </h2>`;
+                var data_files = `<h2> Link to Data :  <a href='https://docs.google.com/spreadsheets/d/13iny9Ax4dwZwBvvWFw8w5ID6-TMncXQLwcf-Ta-TMaA/edit?usp=sharing' target='_blank' >Data File</a> </h2>`;
                 var method = `
                                 <h2>Methodology</h2>
                                 <ul>
@@ -171,7 +171,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 var heading = `<h1><u>Deprivation Index</u></h1>`;
                 var reason = `<h2>Indicates the poverty. Poor find it difficult to recover from floods</h2>`;
                 var source = `<h2>Source :  <a href='https://sedac.ciesin.columbia.edu/data/set/povmap-grdi-v1/data-download' target='_blank' >SEDAC</a> </h2>`;
-                var data_files = `<h2> Link to Data :  <a href='https://docs.google.com/spreadsheets/d/1HsG4Req8mhZgv6dkQPSRqkDsh-h-XkKZ3i46My-Vh5c/edit?usp=sharing' target='_blank' >Data File</a> </h2>`;
+                var data_files = `<h2> Link to Data :  <a href='https://docs.google.com/spreadsheets/d/1glPPrvHIwdVqkiSoyN4nvKLezFoWsQQ-M0KPWJNaAIg/edit?usp=sharing' target='_blank' >Data File</a> </h2>`;
                 var method = `
                                 <h2>Methodology</h2>
                                 <ul>
@@ -192,7 +192,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 var heading = `<h1><u>Literacy</u></h1>`;
                 var reason = `<h2>Informed people (literate) make better flood mitigation decisions.</h2>`;
                 var source = `<h2>Source :  <a href='https://censusgis.org/' target='_blank' >CENSUS ORG</a> </h2>`;
-                var data_files = `<h2> Link to Data :  <a href='https://docs.google.com/spreadsheets/d/1HsG4Req8mhZgv6dkQPSRqkDsh-h-XkKZ3i46My-Vh5c/edit?usp=sharing' target='_blank' >Data File</a> </h2>`;
+                var data_files = `<h2> Link to Data :  <a href='https://docs.google.com/spreadsheets/d/18AtogPmeJ6aH48Hv9dpjxqtGJ4MbiFcMFcR9SlSwZj4/edit?usp=sharing' target='_blank' >Data File</a> </h2>`;
                 var method = `
                                 <h2>Methodology</h2>
                                 <ul>
@@ -214,7 +214,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 var heading = `<h1><u>Sex Ratio</u></h1>`;
                 var reason = `<h2>Informed people (literate) make better flood mitigation decisions.</h2>`;
                 var source = `<h2>Source :  <a href='https://censusgis.org/' target='_blank' >CENSUS ORG</a> </h2>`;
-                var data_files = `<h2> Link to Data :  <a href='https://docs.google.com/spreadsheets/d/1HsG4Req8mhZgv6dkQPSRqkDsh-h-XkKZ3i46My-Vh5c/edit?usp=sharing' target='_blank' >Data File</a> </h2>`;
+                var data_files = `<h2> Link to Data :  <a href='https://docs.google.com/spreadsheets/d/1L9p2eXBCHBZtfD7I7-Xu58TE6tLg3Nb8MGjVevmHWhM/edit?usp=sharing' target='_blank' >Data File</a> </h2>`;
                 var method = `
                                 <h2>Methodology</h2>
                                 <ul>
@@ -236,7 +236,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 var heading = `<h1><u>Crop Land</u></h1>`;
                 var reason = `<h2>More crop area indicates economic prosperity and food security</h2>`;
                 var source = `<h2>Source :  <a href='https://sedac.ciesin.columbia.edu/data/set/aglands-croplands-2000/data-download' target='_blank' >SEDAC</a> </h2>`;
-                var data_files = `<h2> Link to Data :  <a href='https://docs.google.com/spreadsheets/d/1HsG4Req8mhZgv6dkQPSRqkDsh-h-XkKZ3i46My-Vh5c/edit?usp=sharing' target='_blank' >Data File</a> </h2>`;
+                var data_files = `<h2> Link to Data :  <a href='https://docs.google.com/spreadsheets/d/1VOKv9XtNk93dkbWG91oYp1SwQY90LQG85SXyEZG7pfM/edit?usp=sharing' target='_blank' >Data File</a> </h2>`;
                 var method = `
                                 <h2>Methodology</h2>
                                 <ul>
@@ -256,7 +256,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
             if (id == 'hazard-index-map') {
                 var heading = `<h1><u>Hazard Index Map</u></h1>`;
-                var data_files = `<h2> Link to Data :  <a href='https://docs.google.com/spreadsheets/d/1HsG4Req8mhZgv6dkQPSRqkDsh-h-XkKZ3i46My-Vh5c/edit?usp=sharing' target='_blank' >Data File</a> </h2>`;
+                var data_files = `<h2> Link to Data :  <a href='https://docs.google.com/spreadsheets/d/1W-UEU-L4fbq0AwhsIcQS9YAASTHpw1Ys/edit?usp=sharing&ouid=105125682872519420967&rtpof=true&sd=true' target='_blank' >Data File</a> </h2>`;
                 var method = `
                                 <h2>Methodology</h2>
                                 <ul>
@@ -275,7 +275,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
             if (id == 'exposure-index-map') {
                 var heading = `<h1><u>Exposure Index Map</u></h1>`;
-                var data_files = `<h2> Link to Data :  <a href='https://docs.google.com/spreadsheets/d/1HsG4Req8mhZgv6dkQPSRqkDsh-h-XkKZ3i46My-Vh5c/edit?usp=sharing' target='_blank' >Data File</a> </h2>`;
+                var data_files = `<h2> Link to Data :  <a href='https://docs.google.com/spreadsheets/d/1W-UEU-L4fbq0AwhsIcQS9YAASTHpw1Ys/edit?usp=sharing&ouid=105125682872519420967&rtpof=true&sd=true' target='_blank' >Data File</a> </h2>`;
                 var method = `
                                 <h2>Methodology</h2>
                                 <ul>
@@ -294,7 +294,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
             if (id == 'vul-index-map') {
                 var heading = `<h1><u>Vulnerability Index Map</u></h1>`;
-                var data_files = `<h2> Link to Data :  <a href='https://docs.google.com/spreadsheets/d/1HsG4Req8mhZgv6dkQPSRqkDsh-h-XkKZ3i46My-Vh5c/edit?usp=sharing' target='_blank' >Data File</a> </h2>`;
+                var data_files = `<h2> Link to Data :  <a href='https://docs.google.com/spreadsheets/d/1W-UEU-L4fbq0AwhsIcQS9YAASTHpw1Ys/edit?usp=sharing&ouid=105125682872519420967&rtpof=true&sd=true' target='_blank' >Data File</a> </h2>`;
                 var method = `
                                 <h2>Methodology</h2>
                                 <ul>
@@ -312,7 +312,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
             if (id == 'flood-risk-map') {
                 var heading = `<h1><u>Flood Risk Map</u></h1>`;
-                var data_files = `<h2> Link to Data :  <a href='https://docs.google.com/spreadsheets/d/1HsG4Req8mhZgv6dkQPSRqkDsh-h-XkKZ3i46My-Vh5c/edit?usp=sharing' target='_blank' >Data File</a> </h2>`;
+                var data_files = `<h2> Link to Data :  <a href='https://docs.google.com/spreadsheets/d/1W-UEU-L4fbq0AwhsIcQS9YAASTHpw1Ys/edit?usp=sharing&ouid=105125682872519420967&rtpof=true&sd=true' target='_blank' >Data File</a> </h2>`;
                 var method = `
                                 <h2>Methodology</h2>
                                 <ul>
