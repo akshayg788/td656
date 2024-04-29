@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Presentation</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="center fixed-title">
+        <h1>Risk Assessment of Floods in Kerala<br>at the<br>
+                    Subdistrict Level
+        </h1>
+        <hr>
+    </div>
+    <div class="container">
+        <div class="left-panel">
+            <div class="tabs">
+                <input type="radio" class="tabs__radio" name="tabs-example" id="tab1" checked>
+                <label for="tab1" class="tabs__label">Indicators</label>
+                <div class="tabs__content">
+                    <h2>Indicators</h2>
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>S No</th>
+                                    <th>Indicator Type</th>
+                                    <th>Indicator</th>
+                                    <th>Correlation</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr data-id="hazard-elevation">
+                                    <td>1</td>
+                                    <td>Hazard</td>
+                                    <td>Elevation</td>
+                                    <td>H(-)</td>
+                                </tr>
+                                <tr data-id="hazard-river_density">
+                                    <td>2</td>
+                                    <td>Hazard</td>
+                                    <td>River Density</td>
+                                    <td>H(+)</td>
+                                </tr>
+                                <tr data-id="hazard-rainfall">
+                                    <td>3</td>
+                                    <td>Hazard</td>
+                                    <td>Rainfall</td>
+                                    <td>H(+)</td>
+                                </tr>
+                                <tr data-id="exposure-road-density">
+                                    <td>4</td>
+                                    <td>Exposure</td>
+                                    <td>Road Density</td>
+                                    <td>E(+)</td>
+                                </tr>
+                                <tr data-id="exposure-population-density">
+                                    <td>5</td>
+                                    <td>Exposure</td>
+                                    <td>Population Density</td>
+                                    <td>E(+)</td>
+                                </tr>
+                                <tr data-id="exposure-builtup-index">
+                                    <td>6</td>
+                                    <td>Exposure</td>
+                                    <td>Builtup Index</td>
+                                    <td>E(+)</td>
+                                </tr>
+                                <tr data-id="vul-di">
+                                    <td>7</td>
+                                    <td>Vulnerability</td>
+                                    <td>Deprivation Index</td>
+                                    <td>V(+)</td>
+                                </tr>
+                                <tr data-id="vul-literacy-rate">
+                                    <td>8</td>
+                                    <td>Vulnerability</td>
+                                    <td>Literacy Rate</td>
+                                    <td>V(-)</td>
+                                </tr>
+                                <tr data-id="vul-sex-ratio">
+                                    <td>9</td>
+                                    <td>Vulnerability</td>
+                                    <td>Sex Ratio</td>
+                                    <td>V(+)</td>
+                                </tr><tr data-id="vul-cropland">
+                                    <td>10</td>
+                                    <td>Vulnerability</td>
+                                    <td>Cropland Ratio</td>
+                                    <td>V(-)</td>
+                                </tr>
+                            
+                            
+                            
+                            </tbody>
+                        </table>
+                </div>
+                <input type="radio" class="tabs__radio" name="tabs-example" id="tab2">
+                <label for="tab2" class="tabs__label">Combined Maps</label>
+                <div class="tabs__content">
+                    <h2>Combined Maps</h2>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>S No</th>
+                                <th>Type</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr data-id="hazard-index-map">
+                                <td>1</td>
+                                <td>Hazard Index Map</td>
+                            </tr>    
+                            <tr data-id="exposure-index-map">
+                                <td>2</td>
+                                <td>Exposure Index Map</td>
+                            </tr> 
+                            <tr data-id="vul-index-map">
+                                <td>3</td>
+                                <td>Vulnerability Index Map</td>
+                            </tr> 
+                            <tr data-id="flood-risk-map">
+                                <td>4</td>
+                                <td>Flood Risk Index Map</td>
+                            </tr>    
+                        </tbody>
+                    </table>
+                </div>
+              </div>
+            
+   
+            
+        </div>
+        <div class="vertical-line"></div>
+        <div class="right-panel">
+            <div id="heading-container">
+                <!-- Image will be loaded here -->
+            </div>
+            <div id="reason-container">
+                <!-- Image will be loaded here -->
+            </div>
+            <div id="source-container">
+                <!-- Image will be loaded here -->
+            </div>
+            <div id="data-files-container">
+                <!-- Image will be loaded here -->
+            </div>
+            <div id="method-container">
+                <!-- Image will be loaded here -->
+            </div>
+            <div id="map-container" class="center">
+                <!-- Image will be loaded here -->
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

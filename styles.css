@@ -1,0 +1,125 @@
+body {
+  background-color: #f3f3f3;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.center {
+  text-align: center;
+  /* position: fixed;
+  left: 0;
+  width: 100%;
+  background-color: #ffffff;
+  z-index: 1000; Ensure it's above other content */
+}
+
+.left {
+  text-align: left;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: stretch;
+}
+
+.left-panel {
+  flex: 1;
+  padding: 20px;
+}
+
+.vertical-line{
+  width: 2px; /* Adjust thickness of the vertical line */
+  background-color: black; /* Adjust color of the vertical line */
+  margin-left: 100px;
+}
+
+.right-panel {
+  flex: 2;
+  /*padding: 20px;  */
+  padding: 10px;
+  margin-left: 150px;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  /* align-items: center; */
+}
+
+
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 10px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+tr:hover {
+  background-color: #e0e0e0;
+}
+
+.selected {
+  background-color: #e0e0e0;
+}
+
+
+#map-container{
+  width: 40px; /* Set width to 100% */
+  height: 30px; /* Set height to auto for responsiveness */
+}
+
+
+.fixed-title{
+  font-size: 20px;
+}
+
+.list-items{
+  font-size: 20px;
+}
+
+.tabs {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 400px;
+  font-family: sans-serif;
+}
+
+.tabs__label {
+  padding: 10px 16px;
+  cursor: pointer;
+}
+
+.tabs__radio {
+  display: none;
+}
+
+.tabs__content {
+  order: 1;
+  width: 100%;
+  border-bottom: 3px solid #dddddd;
+  line-height: 1.5;
+  font-size: 0.9em;
+  display: none;
+}
+
+.tabs__radio:checked + .tabs__label {
+  font-weight: bold;
+  color: #009578;
+  border-bottom: 2px solid #009578;
+}
+
+.tabs__radio:checked + .tabs__label + .tabs__content {
+  display: initial;
+}
+
+
+.image-container {
+  border: 3px solid black; 
+  padding: 5px;
+}
