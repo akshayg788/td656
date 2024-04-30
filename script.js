@@ -54,7 +54,7 @@ document.addEventListener("DOMContentLoaded", function () {
                                 <h2>Methodology</h2>
                                 <ul>
                                     <li class="list-items">Acquire the SHP file of India from DIVA_GIS for Inland Waters, and  select the shape file for inland water lines</li>
-                                    <li class="list-items">Obtain the subdistrict map of Kerala in vector (SHP) format, which will serve as the administrative boundary for the analysis.</li>
+                                    <li class="list-items">Obtain the subdistrict map of Kerala in vector (SHP) format, which will serve as the administrative boundary for the analysis</li>
                                     <li class="list-items">Clip the roads to the state boundary using the Clip tool.</li>
                                     <li class="list-items">Perform a spatial join using the 'Join attribute by location' tool, where the Target vector layer is the clipped layer and the join layer is the subdistrict boundary SHP file</li>
                                     <li class="list-items">Apply the Dissolve tool to merge the river segments based on subdistrict boundaries.</li>
@@ -105,10 +105,10 @@ document.addEventListener("DOMContentLoaded", function () {
                 <h2>Methodology</h2>
                 <ul>
                     <li class="list-items">Acquire the SHP file of India from DIVA_GIS for Roads</li>
-                    <li class="list-items">Obtain the subdistrict map of Kerala in vector (SHP) format, which will serve as the administrative boundary for the analysis.</li>
-                    <li class="list-items">Clip the roads to the state boundary using the Clip tool.</li>
+                    <li class="list-items">Obtain the subdistrict map of Kerala in vector (SHP) format, which will serve as the administrative boundary for the analysis</li>
+                    <li class="list-items">Clip the roads to the state boundary using the Clip tool</li>
                     <li class="list-items">Perform a spatial join using the 'Join attribute by location' tool, where the Target vector layer is the clipped layer and the join layer is the subdistrict boundary SHP file</li>
-                    <li class="list-items">Apply the Dissolve tool to merge the road segments based on subdistrict boundaries.</li>
+                    <li class="list-items">Apply the Dissolve tool to merge the road segments based on subdistrict boundaries</li>
                     <li class="list-items">Calculate the road length in the attribute table using the 'length' field</li>
                     <li class="list-items">Compute the road density using the formula:  Road_length / Shape Area</li>
                     <li class="list-items">Code the Variance Inflation Factor using MATLAB and find the <b>VIF of Road Density(3.6175)</b>, which is acceptable for further analysis</li>
@@ -198,7 +198,7 @@ document.addEventListener("DOMContentLoaded", function () {
                                 <ul>
                                     <li class="list-items">Obtain the CSV file from the Census 2011 of India website for Literacy rate</li>
                                     <li class="list-items">Retrieve the subdistrict map of Kerala in vector (SHP) format. This map will serve as the administrative boundary for the analysis</li>
-                                    <li class="list-items">A join is made to integrate the Kerala administrative map with the CSV file to plot the map.</li>
+                                    <li class="list-items">A join is made to integrate the Kerala administrative map with the CSV file to plot the map</li>
                                     <li class="list-items">Code the Variance Inflation Factor using MATLAB and find the <b>VIF of Literacy Rate(1.2879)</b>, which is acceptable for further analysis</li>
                                 </ul>
                                 `;
@@ -220,7 +220,7 @@ document.addEventListener("DOMContentLoaded", function () {
                                 <ul>
                                     <li class="list-items">Obtain the CSV file from the Census 2011 of India website for Sex Ratio</li>
                                     <li class="list-items">Retrieve the subdistrict map of Kerala in vector (SHP) format. This map will serve as the administrative boundary for the analysis</li>
-                                    <li class="list-items">A join is made to integrate the Kerala administrative map with the CSV file to plot the map.</li>
+                                    <li class="list-items">A join is made to integrate the Kerala administrative map with the CSV file to plot the map</li>
                                     <li class="list-items">Code the Variance Inflation Factor using MATLAB and find the <b>VIF of Sex Ratio(1.0949)</b>, which is acceptable for further analysis</li>
                                 </ul>
                                 `;
@@ -279,8 +279,8 @@ document.addEventListener("DOMContentLoaded", function () {
                 var method = `
                                 <h2>Methodology</h2>
                                 <ul>
-                                    <li class="list-items">Road Density, Population Density and Bultup Index indicators are chosen for the exposure indexing of floods in Kerala at the sub-district level</li>
-                                    <li class="list-items">All indicators' data are normalized as per their correlation with hazard</li>
+                                    <li class="list-items">Road Density, Population Density and Built-Up Index indicators are chosen for the exposure indexing of floods in Kerala at the sub-district level</li>
+                                    <li class="list-items">All indicators data are normalized as per their correlation with exposure</li>
                                     <li class="list-items">Exposure index is calculated using additive aggregation with equal weightage and maps are plotted using QGIS software</li>                                </ul>
                                 `;
                 var map_src = "images/ExposureIndex.png";
@@ -298,8 +298,8 @@ document.addEventListener("DOMContentLoaded", function () {
                 var method = `
                                 <h2>Methodology</h2>
                                 <ul>
-                                    <li class="list-items">Deprivation Index, Literacy Rate and Sex Ratio indicators are chosen for the exposure indexing of floods in Kerala at the sub-district level</li>
-                                    <li class="list-items">All indicators' data are normalized as per their correlation with hazard</li>
+                                    <li class="list-items">Deprivation Index, Literacy Rate, Sex Ratio and Cropland ratio indicators are chosen for the exposure indexing of floods in Kerala at the sub-district level</li>
+                                    <li class="list-items">All indicators' data are normalized as per their correlation with vulnerability</li>
                                     <li class="list-items">Vulnerability index is calculated using additive aggregation with equal weightage and maps are plotted using QGIS software</li>                                </ul>
                                 `;
                 var map_src = "images/Vulnerability Index.png";
