@@ -49,31 +49,15 @@ body {
 }
 
 
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
 th, td {
   padding: 10px;
   text-align: center;
-  border: 0.5px solid #000000;
-}
-
-
-.table_class {
-    width: 100%;
-    border-collapse: collapse;
-    text-align: left;
-}
-
-.table_class th,
-.table_class td {
-    padding: 8px;
-    border-bottom: 1px solid #ddd; /* Horizontal line for each row */
-}
-
-.table_class thead th {
-    border-bottom: 2px solid #000; /* Optional: a thicker line under the header */
-}
-
-.table_class tbody tr:last-child td {
-    border-bottom: none; /* Removes the line from the last row */
+  border-bottom: 1px solid #ddd;
 }
 
 tr:hover {
