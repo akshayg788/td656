@@ -1,7 +1,7 @@
 body {
   background-color: #f3f3f3;
   margin: 0;
-  font-family: Arial, sans-serif;
+  font-family: "Times New Roman", Times, serif;
 }
 
 .center {
@@ -33,6 +33,7 @@ body {
   width: 2px; /* Adjust thickness of the vertical line */
   background-color: black; /* Adjust color of the vertical line */
   margin-left: 100px;
+  margin: 0px auto;
 }
 
 .right-panel {
@@ -48,16 +49,31 @@ body {
 }
 
 
-
-table {
-  width: 100%;
-  border-collapse: collapse;
-}
-
 th, td {
   padding: 10px;
   text-align: center;
-  border-bottom: 1px solid #ddd;
+  border: 0.5px solid #000000;
+}
+
+
+.table_class {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+.table_class th,
+.table_class td {
+    padding: 8px;
+    border-bottom: 1px solid #ddd; /* Horizontal line for each row */
+}
+
+.table_class thead th {
+    border-bottom: 2px solid #000; /* Optional: a thicker line under the header */
+}
+
+.table_class tbody tr:last-child td {
+    border-bottom: none; /* Removes the line from the last row */
 }
 
 tr:hover {
