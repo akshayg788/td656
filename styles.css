@@ -33,7 +33,9 @@ body {
   width: 2px; /* Adjust thickness of the vertical line */
   background-color: black; /* Adjust color of the vertical line */
   margin-left: 100px;
-  margin: 0px auto;
+  margin: 0px auto; 
+  height: 100%; 
+
 }
 
 .right-panel {
@@ -93,6 +95,7 @@ tr:hover {
 .tabs__label {
   padding: 10px 16px;
   cursor: pointer;
+  font-size: 20px;
 }
 
 .tabs__radio {
@@ -122,4 +125,10 @@ tr:hover {
 .image-container {
   border: 3px solid black; 
   padding: 5px;
+}
+
+.table_class {
+  margin: 0;
+  padding: 0;
+  border-collapse: collapse; /* Ensures borders between cells collapse into a single border */
 }
