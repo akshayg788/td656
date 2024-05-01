@@ -31,9 +31,10 @@ body {
   flex-direction: column;
   display: flex; 
   justify-content: space-between; 
-  margin-bottom: 100px;
+  /* margin-bottom: 100px; */
   height: 140vh;
   border-right: 2px solid black;
+  position: relative;
 }
 
 .vertical-line{
