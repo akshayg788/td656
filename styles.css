@@ -23,6 +23,8 @@ body {
   justify-content: center;
   align-items: stretch;
   margin-top: -10px;
+  align-self: stretch;
+  flex-direction: row;
 }
 
 .left-panel {
@@ -32,9 +34,10 @@ body {
   display: flex; 
   justify-content: space-between; 
   /* margin-bottom: 100px; */
-  height: 140vh;
+  height: 170vh;
   border-right: 2px solid black;
   position: relative;
+  align-self: stretch;
 }
 
 .vertical-line{
@@ -62,6 +65,7 @@ body {
 table {
   width: 100%;
   border-collapse: collapse;
+  height: auto;
 }
 
 th, td {
@@ -150,3 +154,8 @@ tr:hover {
 .fixed-title h1{
     margin: 5px 0; 
   }
+
+
+.right-content {
+    overflow-y: auto; 
+}
