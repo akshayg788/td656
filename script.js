@@ -261,7 +261,7 @@ document.addEventListener("DOMContentLoaded", function () {
                                 <h2>Methodology</h2>
                                 <ul>
                                     <li class="list-items">Elevation, River Density and Rainfall indicators are chosen for the hazard indexing of floods in Kerala at the sub-district level</li>
-                                    <li class="list-items">All indicators' data are normalized as per their correlation with hazard</li>
+                                    <li class="list-items">All indicators data are normalized as per their correlation with hazard</li>
                                     <li class="list-items">Hazard index is calculated using additive aggregation with equal weightage and maps are plotted using QGIS software</li>                                </ul>
                                 `;
                 var map_src = "images/Hazard_Index.png";
@@ -299,7 +299,7 @@ document.addEventListener("DOMContentLoaded", function () {
                                 <h2>Methodology</h2>
                                 <ul>
                                     <li class="list-items">Deprivation Index, Literacy Rate, Sex Ratio and Cropland ratio indicators are chosen for the exposure indexing of floods in Kerala at the sub-district level</li>
-                                    <li class="list-items">All indicators' data are normalized as per their correlation with vulnerability</li>
+                                    <li class="list-items">All indicators data are normalized as per their correlation with vulnerability</li>
                                     <li class="list-items">Vulnerability index is calculated using additive aggregation with equal weightage and maps are plotted using QGIS software</li>                                </ul>
                                 `;
                 var map_src = "images/Vulnerability Index.png";
