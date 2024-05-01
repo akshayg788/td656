@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 row.classList.remove("selected");
             });
 
-            // Add the "selected" class to the clicked row
+            // Add the "selected" class to the clicked row test
             this.classList.add("selected");
 
             // Get the data-id attribute value of the clicked row
