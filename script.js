@@ -350,18 +350,22 @@ document.addEventListener("DOMContentLoaded", function () {
             const methodContainer = document.getElementById("method-container");
             methodContainer.innerHTML = method;
 
-            const mapContainer = document.getElementById("map-container");
-            mapContainer.innerHTML = map_heading;
-            const imageContainer = document.createElement("div");
-            imageContainer.classList.add("image-container");
-            const mapImage = new Image();
-            mapImage.src = map_src;
-            mapImage.alt = `Image ${id}`;
-            imageContainer.appendChild(mapImage);
-            mapImage.style.width = "700px";
-            mapImage.style.height = "450px";
-            mapContainer.style.textAlign = "center";
-            mapContainer.appendChild(mapImage);
+            const mapContainer = document.getElementById("map-container");  
+            mapContainer.innerHTML = `${map_heading}
+            <div  style="text-align: center;">
+                <img src="${map_src}" alt="Image ${id}" style="width: 700px; height: 450px;">
+            </div>`;
+
+            // const imageContainer = document.createElement("div");
+            // imageContainer.classList.add("image-container");
+            // const mapImage = new Image();
+            // mapImage.src = map_src;
+            // mapImage.alt = `Image ${id}`;
+            // imageContainer.appendChild(mapImage);
+            // mapImage.style.width = "700px";
+            // mapImage.style.height = "450px";
+            // mapContainer.style.textAlign = "center";
+            // mapContainer.appendChild(mapImage);
         });
     });
 });
